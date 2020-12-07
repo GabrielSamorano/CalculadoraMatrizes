@@ -22,7 +22,7 @@ ListaLinear * Cria_Nodo()
  p = (ListaLinear *) malloc(sizeof(ListaLinear));
  if(!p)
  {
- printf("Problema de alocaÁ„o");
+ printf("Problema de aloca√ß√£o");
  exit(0);
  }
  return p;
@@ -184,7 +184,7 @@ float** criamatriz(int lin,int col)
  matriz = (float **) malloc (lin * sizeof(float *));
  if (!matriz)
  {
- puts("Nao h· espaÁo para alocar memÛria");
+ puts("Nao h√° espa√ßo para alocar mem√≥ria");
  exit(1);
  }
  //printf("Numero de colunas = %d\n", col);
@@ -192,7 +192,7 @@ float** criamatriz(int lin,int col)
  {
  *(matriz +i) = (float *) malloc(col * sizeof (float));
  if (! *(matriz+i) ){
- printf("N„o h· espaÁo para alocar a linha %d", i);
+ printf("N√£o h√° espa√ßo para alocar a linha %d", i);
  exit(1);
  }
  }
